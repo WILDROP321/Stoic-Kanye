@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'playfair';
+  src: local("PlayfairDisplay"),
+    url("./fonts/playfair/PlayfairDisplay.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'playfair';
+  src: local("PlayfairDisplay"),
+    url("./fonts/playfair/PlayfairDisplay-IT.ttf") format("truetype");
+}
+
+
 .App {
   text-align: center;
 }

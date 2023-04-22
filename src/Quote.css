@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'playfair';
+    src: local("PlayfairDisplay"),
+        url("./fonts/playfair/PlayfairDisplay-IT.ttf") format("truetype");
+}
+
+body{
+    background-color: rgb(51, 21, 17);
+    background-image:linear-gradient(rgb(51, 21, 17),rgb(22, 9, 7));
+    
+}
+
+.App{
+    min-height: 100vh;
+}
+
+
+
+
+.top-head{
+
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+}
+
+
+.parent {
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+.quote{
+    font-family: playfair;
+    color: rgb(244, 210, 155);
+    display: inline-block;
+    vertical-align: middle;
+    width: fit-content;
+    max-width: 800px;
+}
+
+h1{
+    font-family: playfair;
+    color: rgb(244, 210, 155);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+button{
+    background-color:  rgb(244, 210, 155);
+    border: none;
+    color: rgb(51, 21, 17);
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family: PD;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 8px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+
+.correct{
+    color: rgb(26, 184, 17);
+    font-size: 25px;
+}
+.wrong {
+    color: rgb(236, 43, 43);
+    font-size: 25px;
+}
+
+h2,h3{
+    color: rgb(244, 210, 155);
+    margin: 4px;
+    padding: 4px;
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+.stoic{
+    width: fit-content;
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+}
+
+
+/* CHAT GPT */
+
+.quote {
+    margin-top: 10vw;
+    /* 10% of the viewport width */
+}
+
+button {
+    padding: 1rem 4rem;
+    /* 1rem top/bottom padding, 4rem left/right padding */
+}
+
+
+/* Styles for desktop */
+.quote {
+    margin-top: 100px;
+}
+
+/* Styles for tablet */
+@media screen and (max-width: 768px) {
+    .quote {
+        margin-top: 5rem;
+    }
+}
+
+/* Styles for mobile */
+@media screen and (max-width: 480px) {
+    .quote {
+        margin-top: 2rem;
+    }
+}
+
+
+
+h2 {
+    font-size: 2.5rem;
+    /* Responsive font size */
+}
+
+h3 {
+    font-size: 1.5rem;
+    /* Responsive font size */
+}
+
+
+.button {
+    margin: 1rem 0.5rem;
+    /* Adjust margins as needed */
+}
+
+img {
+    pointer-events: none;
+}
